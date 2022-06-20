@@ -84,7 +84,7 @@ export function CustomTable({ columns, data }) {
                           {...cell.getCellProps()}
                         >
                           {cell.render("Cell")}
-                        </Td>
+                        </Td> 
                       );
                     })}
                   </Tr>
